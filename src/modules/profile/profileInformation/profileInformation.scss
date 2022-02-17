@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.profile__information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile__title {
+  margin-bottom: $gap16;
+  color: $gray;
+  font-weight: bold;
+}
+
+.profile__info-container {
+  margin-bottom: $gap32;
+}

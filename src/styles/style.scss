@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.hidden {
+  display: none;
+}
+
+$roboto-font-path: "../fonts";
+
+@font-face {
+  src: url("#{$roboto-font-path}/Roboto-Thin.ttf") format("ttf");
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+@font-face {
+  src: url("#{$roboto-font-path}/Roboto-Regular.ttf") format("ttf");
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("#{$roboto-font-path}/Roboto-Bold.ttf") format("ttf");
+  font-family: "Roboto";
+  font-weight: 700;
+}

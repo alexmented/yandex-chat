@@ -1,0 +1,23 @@
+@import "src/styles/variables";
+
+.frame {
+  padding: 20px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+  height: auto;
+  max-width: 390px;
+  margin: $gap96 auto 0;
+  border-radius: 8px;
+}
+
+.frame h1 {
+  text-align: center;
+  padding: $gap32 0 $gap32;
+}
+
+.frame__buttons {
+  margin-top: $gap80;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

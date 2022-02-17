@@ -1,0 +1,13 @@
+{
+  "extends": "xo",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": 2,
+    "quotes": [2, "single", { "avoidEscape": true }]
+  }
+}

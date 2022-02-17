@@ -1,0 +1,95 @@
+@import "src/styles/variables";
+
+.chatsender__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  & header {
+    height: 80px;
+    background-color: $lightred;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $borderline;
+    padding: $gap16;
+
+    & .chatsender__photo {
+      width: 60px;
+      height: 60px;
+      background-color: $gray;
+      border-radius: 60px;
+      margin-right: 20px;
+    }
+
+    & .chatsender__name {
+      font-weight: bold;
+    }
+
+    & .chatsender__info {
+      display: flex;
+      align-items: center;
+    }
+
+    & .chatsender__options {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  & .chatsender__sending {
+    height: 100px;
+    background-color: $lightred;
+    border-top: 1px solid $borderline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $gap16;
+
+    & .chatsender__inp {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    & .chatsender__btn {
+      height: 40px;
+      width: 150px;
+    }
+
+    & .inp__wrapper {
+      background: white;
+    }
+
+    & .inp__outer {
+      width: 100%;
+      margin-right: 20px;
+    }
+  }
+
+  & .chatsender__messages {
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow-x: scroll;
+    padding: $gap8 $gap8 0 0;
+
+    & .chatsender__message {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: auto;
+      background: $red;
+      border-radius: 10px;
+      margin-bottom: $gap8;
+      padding: 5px;
+      color: white;
+
+      & .chatsender__message-time {
+        margin-top: $gap8;
+      }
+    }
+  }
+
+
+}

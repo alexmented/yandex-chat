@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.inp__wrapper {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: $gap8 0;
+}
+
+.inp {
+  width: calc(100% - 40px);
+  outline: none;
+  border: none;
+}
+
+.inp__error {
+  color: $red;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.inp__outer {
+  & label {
+    font-size: 13px;
+    line-height: 13px;
+  }
+}

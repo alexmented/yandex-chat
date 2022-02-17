@@ -1,0 +1,36 @@
+@import "src/styles/variables";
+
+.chatadd__wrapper {
+  position: absolute;
+  top: 88px;
+  right: 20px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+  border-radius: $gap8;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: $gap8;
+  background-color: white;
+
+  & button {
+    font-size: 13px;
+    line-height: 13px;
+    height: 40px;
+  }
+}
+
+.addchat__item {
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  height: 30%;
+}
+
+.add-user,
+.remove-user,
+.add-new-chat-button {
+  cursor: pointer;
+}

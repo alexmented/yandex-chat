@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.btn {
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 17px;
+  padding: 13px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $red;
+  color: white;
+  background-color: $red;
+  border-radius: 32px;
+  margin-bottom: $gap8;
+  width: 100%;
+
+  &:hover {
+    background-color: $redHover;
+    cursor: pointer;
+  }
+}
+
+.btn__violet {
+  background-color: $violet;
+
+  &:hover {
+    background-color: $violetHover;
+    cursor: pointer;
+  }
+}
+
+.btn__transparent {
+  color: $red;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  text-transform: none;
+  max-width: 250px;
+
+  &:hover {
+    color: $redHover;
+    cursor: pointer;
+    background-color: transparent;
+  }
+}
+
+.error__btn {
+  display: flex;
+  justify-content: center;
+}

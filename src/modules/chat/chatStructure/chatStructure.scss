@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.structure__wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.structure__list {
+  min-width: 385px;
+  border-right: 1px solid $borderline;
+  display: flex;
+  flex-direction: column;
+}
+
+.structure__messages {
+  width: calc(100% - 385px);
+}
