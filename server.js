@@ -8,6 +8,7 @@ app.use(helmet({
     contentSecurityPolicy: {
       directives: {
         "script-src": ["'self'"],
+	"frame-src: ["'none'"]
       },
     },
 }));
